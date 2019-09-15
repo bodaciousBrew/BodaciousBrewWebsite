@@ -1,0 +1,33 @@
+.mat-card  {
+    background-color: white;
+    box-shadow: 2px 1px 20px rgba(0, 250, 175, 0.664);
+    height: auto;
+    // width: 75vw;
+    // max-width: 400px;
+    margin: 2em;
+    width: 45vw;
+  }
+
+  .mat-card .mat-card-header {
+      font-size: 18pt;
+      font-style: italic;
+  }
+
+  .mat-card .mat-card-content {
+    font-size: 18pt;
+    font-style: italic;
+}
+
+  .mat-card .mat-card-footer {
+      position: fixed;
+      bottom: 95%;
+  }
+
+  .site-title {
+    color: white !important;
+    margin-top: 0.5em;
+}
+
+// .twitter-timeline {
+//     height: 350px !important;
+// }

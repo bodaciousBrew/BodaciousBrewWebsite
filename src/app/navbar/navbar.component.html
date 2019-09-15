@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <h2 style="color: cyan;">
+      SHOWS:
+    </h2>
+    <ul class="show-list" *ngFor="let show of showList">
+      <h2>
+        {{ show }}
+      </h2>
+    </ul>
+    <span class="toolbar-spacer"></span>
+    <mat-icon
+      class="toolbar-icon"
+      svgIcon="gameboy"
+      aria-hidden="false"
+      aria-label="Example user verified icon"
+    ></mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
